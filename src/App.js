@@ -1,20 +1,29 @@
 import "./App.scss";
-import About from "./components/about/about";
-import Banner from "./components/banner/banner";
-import Footer from "./components/footer/footer";
+import HomePage from "./pages/home";
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import AboutPage from "./pages/about";
 import Header from "./components/header/header";
-import Products from "./components/products/products";
+import Footer from "./components/footer/footer";
+import ProductsPage from "./components/products/products";
+import ContactPage from "./pages/contact";
+import PageNotFound from "./pages/404";
+
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Banner />
-      <About />
-      <Products />
-      <Footer />
-    </div>
-  );
+    <>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/about" element={<AboutPage />}></Route>
+          <Route path="/products" element={<ProductsPage />}></Route>
+          <Route path="/contact" element={<ContactPage />}></Route>
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
+  )
 }
-
 export default App;
