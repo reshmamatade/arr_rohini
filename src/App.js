@@ -10,9 +10,9 @@ import Events from './events';
 function App() {
   return (
     <div>
-      <Events />
+      {/* <Events /> */}
       {/* <Header /> */}
-      {/* <Banner /> */}
+      <Banner />
       {/* <About />
       <Products />
       <Footer /> */}
