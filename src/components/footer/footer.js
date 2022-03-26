@@ -78,11 +78,13 @@ export default function Footer() {
         <div className="row mt-5">
           <div className="col copyright">
             <p className="">
-              <small className="text-black-50">
-                Copyright © 2021 – ARR Rohini Food Products. All rights
-                reserved. Designed by Call Bharat – B2B & Digital Marketing
-                Services Agency
-              </small>
+              <div className="footer-copyright text-center py-3 ">
+                © 2020 Copyright- – ARR Rohini Food Products. All rights
+                reserved
+                <br></br>
+                Designed by Call Bharat – B2B & Digital Marketing Services
+                Agency
+              </div>
             </p>
           </div>
         </div>
