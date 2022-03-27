@@ -50,7 +50,7 @@ export default function Footer() {
 
             <p>
               <span>
-                <i className="mb-0" className="address">
+                <i className="mb-0 address">
                   <img src="https://img.icons8.com/pastel-glyph/30/26e07f/marker.png" />
                 </i>
               </span>
