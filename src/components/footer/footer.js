@@ -3,10 +3,10 @@ import "./footer.scss";
 
 export default function Footer() {
   return (
-    <div className="container">
+    <div className="container ">
       <div className="mt-5 pt-5 pb-5 footer">
         <div className="row">
-          <div className="col-lg-5 col-xs-12 aboutCompany">
+          <div className="col-lg-5 col-xs-12 aboutCompany" id="foot">
             <h2>About Us</h2>
             <br />
             <p className="pr-5 text-black-50 ">
