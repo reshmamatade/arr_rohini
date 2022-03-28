@@ -2,7 +2,7 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import './banner.scss'
-import bootstrap from 'bootstrap'
+
 import { motion } from 'framer-motion'
 import Fade from 'react-reveal/Fade';
 
