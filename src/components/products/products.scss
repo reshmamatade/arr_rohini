@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+  }
+  h1 {
+    text-align: left;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .image-info {
+    margin: 10px;
+    position: relative;
+  }
+  .image-info .Text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .image-info img {
+    width: 100%;
+  }body {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .image-info {
+    margin: 10px;
+    position: relative;
+  }
+  .image-info .Text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .image-info img {
+    width:100%;
+  }
+  .Text h1 {
+    color: white;
+  }
+  .Text p {
+    color: white;
+  }
