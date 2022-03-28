@@ -1,12 +1,27 @@
-.carousel-indicators{
-    display:none;
+.banner{
+    .carousel-indicators{
+        display:none;
+    }
+    .txt{
+        color: aliceblue;
+        margin-bottom: 300px;
+        margin-right: 350px;
+    }
+    .logo{
+        margin-bottom: 280px;
+        margin-right: 800px;
+    }
+   
 }
-.txt{
-    color: aliceblue;
-    margin-bottom: 300px;
-    margin-right: 350px;
-}
-.logo{
-    margin-bottom: 280px;
-    margin-right: 800px;
-}
+// .carousel-indicators{
+//     display:none;
+// }
+// .txt{
+//     color: aliceblue;
+//     margin-bottom: 300px;
+//     margin-right: 350px;
+// }
+// .logo{
+//     margin-bottom: 280px;
+//     margin-right: 800px;
+// }
