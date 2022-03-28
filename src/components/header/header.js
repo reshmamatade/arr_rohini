@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./header.scss";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 
 export default function Header() {
   return (
@@ -75,20 +77,41 @@ export default function Header() {
     // </div>
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#">
+          <img src="https://arrrohinifoodproducts.com/wp-content/uploads/2021/03/arrrohinifplogo.jpg" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: "100px" }}
-            navbarScroll
-          >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
-          </Nav>
+          <div className="navBarContainer">
+            <Nav
+              className="me-auto my-2 my-lg-0  "
+              style={{ maxHeight: "100px" }}
+              navbarScroll
+            >
+              <Nav.Link href="#action1" className="navlist">
+                Home
+              </Nav.Link>
+              <Nav.Link href="#action2" className="navlist">
+                About
+              </Nav.Link>
+              <Nav.Link href="#action2" className="navlist">
+                Products
+              </Nav.Link>
+              <Nav.Link href="#action2" className="navlist">
+                Contact
+              </Nav.Link>
+            </Nav>
+          </div>
+          <div>
+            <svg className="socialMediaIcons">
+              <FontAwesomeIcon
+                icon={faInstagramSquare}
+                width="40px"
+                height="40px"
+                color="red"
+              />
+            </svg>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
