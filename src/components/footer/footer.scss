@@ -42,11 +42,21 @@
   }
 
   @media screen and (max-width: 767px) {
-    #foot {
+    .aboutCompany .location {
       align-content: center;
       align-items: center;
       justify-content: center;
       padding: 40px 0px 20px 0px;
+      text-align: center;
+    }
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .row {
+      display: flex;
     }
   }
 }
