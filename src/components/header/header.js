@@ -7,7 +7,6 @@ export default function Header() {
     <div>
       <div className="headUpper ">
         <div className="container">
-
           <div className="Email">E-mail: contact@arrrohinifoodproducts.com</div>
           <div className="Contact">Call: +91-88709 09988</div>
         </div>
