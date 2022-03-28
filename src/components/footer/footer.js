@@ -31,16 +31,24 @@ export default function Footer() {
             <br />
             <ul className="m-0 p-0">
               <li>
-                <a href="#">Home</a>
+                <Link href="#" to="/">
+                  Home{" "}
+                </Link>
               </li>
               <li>
-                <a href="#">About Us</a>
+                <Link href="#" to="/About">
+                  About Us
+                </Link>
               </li>
               <li>
-                <a href="#">Products</a>
+                <Link href="#" to="/Products">
+                  Products
+                </Link>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <Link href="#" to="/Contact">
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
