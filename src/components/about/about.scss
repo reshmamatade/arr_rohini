@@ -1,15 +1,19 @@
-.title{
+.second{
     color: #01a64f;
     font-size: 40px;
     font-weight: 600;
     line-height: 45px;
+    margin-left: 24px;
+   
     
 }
 .heading{
   color: #2f3192;
   font-size: 40px;
   font-weight: 600;
-  line-height: 45px;
+  line-height: 40px;
+  margin-top: 40px;
+  margin-left: 24px;
 }
  .text{
     font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
@@ -17,8 +21,6 @@
     margin: 30px;
     display: block;
     line-height: 1.8;
-    
-   
 }
 .btn{
     font-family: "Epilogue", Sans-serif;
@@ -32,9 +34,10 @@
     display: inline-block;
     line-height: 1;
     height: 50px;
-   margin: 50px;
+    margin: 30px;
    
 }
 .image{
     width: 100%;
+    margin-top: 40px;
 }
