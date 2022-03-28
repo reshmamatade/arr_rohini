@@ -54,37 +54,25 @@ export default function Header() {
                     </Link>
                   </li>
                 </ul>
+                <div className="socialogo">
                 <ul class="navbar-nav sm-icons">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
+                  <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/60/000000/external-email-interface-kiranshastry-lineal-kiranshastry-1.png" />
+              </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
+                  <img src="https://img.icons8.com/color/48/000000/whatsapp--v5.png" />
+                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <i class="fab fa-pinterest-p"></i>
-                    </a>
-                  </li>
-                </ul>
+                  <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" />
+                   </li>
+                   </ul>
               </div>
-              <div className="socialogo">
-                <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/60/000000/external-email-interface-kiranshastry-lineal-kiranshastry-1.png" />
-                <img src="https://img.icons8.com/color/48/000000/whatsapp--v5.png" />
-                <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" />
               </div>
             </div>
-          </nav></div>
+          </nav>
+          </div>
       </div>
     </div>
-  );
+    
+  )
 }
