@@ -2,6 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./header.scss";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagramSquare,
+  faWhatsappSquare,
+} from "@fortawesome/free-brands-svg-icons";
+import { faMessage } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
@@ -73,23 +79,68 @@ export default function Header() {
     //       </div>
     //   </div>
     // </div>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="headMain">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: "100px" }}
-            navbarScroll
-          >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+          <div className="imageArr" >
+            <Navbar.Brand href="#">
+              <img src="https://arrrohinifoodproducts.com/wp-content/uploads/2021/03/arrrohinifplogo.jpg" />
+            </Navbar.Brand>
+            </div>
+            <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Collapse id="navbarScroll">
+              <Nav
+                className="me-auto my-2 my-lg-0  "
+                style={{ maxHeight: "100px" }}
+                navbarScroll
+              >
+                <Link className="nav-link" to="/">
+                  <b> Home</b>
+                </Link>
+
+                <Link className="nav-link" to="/about">
+                  <b> About Us</b>
+                </Link>
+
+                <Link className="nav-link" to="/products">
+                  <b> Products</b>
+                </Link>
+
+                <Link className="nav-link" to="/contact">
+                  <b> Contact</b>
+                </Link>
+              </Nav>
+
+              <div className="socialMediaIcons ">
+                <span>
+                  <FontAwesomeIcon
+                    icon={faInstagramSquare}
+                    width="40px"
+                    height="40px"
+                    color="red"
+                  />
+                </span>
+                <span>
+                  <FontAwesomeIcon
+                    icon={faWhatsappSquare}
+                    width="40px"
+                    height="40px"
+                    color="red"
+                  />
+                </span>
+
+                <span>
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faMessage}
+                    width="40px"
+                    height="40px"
+                    color="red"
+                  />
+                </span>
+              </div>
+            </Navbar.Collapse>
+          
+        
       </Container>
     </Navbar>
   );

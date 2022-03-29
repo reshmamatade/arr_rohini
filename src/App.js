@@ -14,13 +14,16 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
+          <div style={{}}>
         <Routes>
+
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/about" element={<AboutPage />}></Route>
           <Route path="/products" element={<ProductsPage />}></Route>
           <Route path="/contact" element={<ContactPage />}></Route>
           <Route path="*" element={<PageNotFound />} />
         </Routes>
+          </div>
         <Footer />
       </BrowserRouter>
     </>

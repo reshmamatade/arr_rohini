@@ -1,0 +1,24 @@
+.headMain{
+  width: auto;
+.navBarContainer {
+    width: auto;
+    .nav-link:hover {
+      color: #85b81a !important;
+    }
+    
+    .socialMediaIcons {justify-items: right;
+        
+        }
+  }}
+
+
+  .headerContainer{
+    display: flex;
+    align-items: center;
+    width: inherit;
+    .navigation{
+      width: inherit;
+    display: flex;
+    justify-content: space-between;
+    }
+  }
