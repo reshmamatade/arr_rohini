@@ -124,7 +124,7 @@ export default function Header() {
                     icon={faWhatsappSquare}
                     width="40px"
                     height="40px"
-                    color="red"
+                    color="green"
                   />
                 </span>
 
@@ -134,7 +134,7 @@ export default function Header() {
                     icon={faMessage}
                     width="40px"
                     height="40px"
-                    color="red"
+                    color="grey"
                   />
                 </span>
               </div>

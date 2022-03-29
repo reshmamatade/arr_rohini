@@ -2,15 +2,13 @@
   width: auto;
 .navBarContainer {
     width: auto;
-    .nav-link:hover {
-      color: #85b81a !important;
-    }
     
     .socialMediaIcons {justify-items: right;
         
         }
   }}
-
+  .nav-link:hover {
+    color: #85b81a !important;}
 
   .headerContainer{
     display: flex;
