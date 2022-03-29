@@ -1,11 +1,20 @@
 .footer {
   background: white;
-  color: black;
+  color: #000000;
 
-  .medialogo a:hover {
-    background-color: lightgrey;
-    border-radius: 50px;
-    width: 50px;
+  .medialogo {
+    display: flex;
+    a {
+      border-radius: 50%;
+      display: flex;
+      width: 40px;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        background-color: lightgrey;
+      }
+    }
   }
 
   .links {
@@ -63,5 +72,9 @@
     .row {
       display: flex;
     }
+  }
+
+  .address {
+    padding-right: 10px;
   }
 }
