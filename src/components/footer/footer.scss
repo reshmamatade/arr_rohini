@@ -1,11 +1,20 @@
 .footer {
   background: white;
-  color: black;
+  color: #000000;
 
-  .medialogo a:hover {
-    background-color: lightgrey;
-    border-radius: 50px;
-    width: 50px;
+  .medialogo {
+    display: flex;
+    a {
+      border-radius: 50%;
+      display: flex;
+      width: 40px;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        background-color: lightgrey;
+      }
+    }
   }
 
   .links {
@@ -40,6 +49,10 @@
       border-top: 1px solid #f5f5f5b7(255, 255, 255, 0.548);
     }
   }
+  .navBarContainer {
+    display: flex;
+    text-align: center;
+  }
 
   @media screen and (max-width: 767px) {
     .aboutCompany .location {
@@ -49,6 +62,7 @@
       padding: 40px 0px 20px 0px;
       text-align: center;
     }
+
     @media screen and (max-width: 767px) {
       display: flex;
       flex-direction: column;
@@ -58,5 +72,9 @@
     .row {
       display: flex;
     }
+  }
+
+  .address {
+    padding-right: 10px;
   }
 }

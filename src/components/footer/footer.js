@@ -59,8 +59,8 @@ export default function Footer() {
 
             <p className="d-flex">
               <span>
-                <i className="mb-0 address">
-                  <img src="https://img.icons8.com/pastel-glyph/30/26e07f/marker.png" />
+                <i className="address">
+                  <img src="https://img.icons8.com/pastel-glyph/20/26e07f/marker.png" />
                 </i>
               </span>
               <span>
@@ -68,18 +68,18 @@ export default function Footer() {
                 - 612001
               </span>
             </p>
-            <p className="d-flex">
+            <p>
               <span>
-                <i className="fa fa-phone mr-3 phone">
-                  <img src="https://img.icons8.com/ios/30/26e07f/phone.png" />
+                <i className="fa fa-phone mr-3 address">
+                  <img src="https://img.icons8.com/ios/20/26e07f/phone.png" />
                 </i>
               </span>
               <span>(+91)-8870909988</span>
             </p>
-            <p className="d-flex">
+            <p>
               <span>
-                <i className="fa fa-envelope-o mr-3 message">
-                  <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/30/26e07f/external-message-contact-flatart-icons-solid-flatarticons.png" />
+                <i className="fa fa-envelope-o mr-3 address">
+                  <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/20/26e07f/external-message-contact-flatart-icons-solid-flatarticons.png" />
                 </i>
               </span>
               <span>contact@arrrohinifoodproducts.com</span>

@@ -1,0 +1,52 @@
+.head {
+  text-align: center;
+  background-color: #f4f4f4;
+  height: 200px;
+  padding-top: 50px;
+}
+
+.homeicon {
+  text-decoration: none;
+  color: grey;
+}
+.icon {
+  margin: 0 10px;
+}
+.arrow {
+  margin: 0 10px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  .mid {
+    align-items: center;
+  }
+  .rightlogo {
+    padding-left: 228px;
+  }
+  .leftlogo {
+    padding-right: 228px;
+  }
+  .content {
+    text-align: center;
+  }
+}
+.help {
+  height: 100px;
+  margin-top: 30px;
+  i {
+    padding-right: 10px;
+  }
+  .locate {
+    width: 33.33%;
+    padding-left: 28px;
+  }
+  .support {
+    padding-left: 75px;
+    width: 33.33%;
+  }
+}
+.form {
+  height: 500px;
+  background-color: #f7f7f7;
+}

@@ -1,0 +1,27 @@
+.headMain {
+  width: auto;
+  position: sticky;
+  top: 0;
+
+  .navBarContainer {
+    width: auto;
+
+    .socialMediaIcons {
+      justify-items: right;
+    }
+  }
+}
+.nav-link:hover {
+  color: #85b81a !important;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  width: inherit;
+  .navigation {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+  }
+}
