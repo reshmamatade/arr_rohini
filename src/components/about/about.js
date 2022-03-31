@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './about.scss'
 export default function About() {
     return (
@@ -10,7 +11,7 @@ export default function About() {
                     </div>
                     <button className='btn btn-primary about-button'>CLICK HERE</button>
                 </div>
-                <div className='col-md-6'> <img className='image' src='https://arrrohinifoodproducts.com/wp-content/uploads/2022/01/THMBOOLAM-Product.png' /></div>
+                <div className='col-md-6'> <img className='image ' src='https://arrrohinifoodproducts.com/wp-content/uploads/2022/01/THMBOOLAM-Product.png' /></div>
             </div>
         </div>
 

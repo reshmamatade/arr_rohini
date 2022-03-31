@@ -9,6 +9,7 @@ import ContactPage from "./pages/contact";
 import PageNotFound from "./pages/404";
 
 
+
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+
     </>
   )
 }

@@ -1,43 +1,4 @@
-// .second{
-//     color: #01a64f;
-//     font-size: 40px;
-//     font-weight: 600;
-//     line-height: 45px;
-    
-// }
-// .heading{
-//   color: #2f3192;
-//   font-size: 40px;
-//   font-weight: 600;
-//   line-height: 40px;
-//   margin-top: 40px;
-// }
-//  .text{
-//     font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
-//     text-align: justify;
-//     margin: 30px;
-//     display: block;
-//     line-height: 1.8;
-// }
-// .btn{
-//     font-family: "Epilogue", Sans-serif;
-//     font-size: 12px;
-//     font-weight: 700;
-//     text-transform: uppercase;
-//     color: white;
-//     background-color: #85b81a;
-//     border-radius: 3px 3px 3px 3px;
-//     padding: 17px 37px 17px 37px;
-//     display: inline-block;
-//     line-height: 1;
-//     height: 50px;
-//     margin: 30px;
-   
-// }
-// .image{
-//     width: 100%;
-//     margin-top: 40px;
-// }
+
 .about{
     padding: 40px 16px;
     .heading{
@@ -45,6 +6,7 @@
           font-size: 40px;
           font-weight: 600;
           line-height: 40px;
+          
     }
     .sub-heading{
         color: #01a64f;
@@ -71,5 +33,61 @@
     .image{
         width: 100%;
     }
+    .sub-text{
+        font-family: "Roboto", sans-serif;
+        text-align: justify;
+        line-height: 30px;
+        margin: 100px 0px;
+    }
+    .l-text{
+        margin: 20px 0px;
+    }
+    .last-heading{
+        margin: 10px ;
+      
+    }
+    .get{
+        text-align: center;
+        margin-top: 150px;
+        font-weight: 900px;
+    }
+    .rohini{
+        text-align: center;
+        font-size: 15px;
+        
+        
+    }
+    // .about-page-button{
+    //     font-weight: 700;
+    //         text-transform: uppercase;
+    //         color: white;
+    //         background-color: #85b81a;
+    //         border-radius: 4px;
+    //         border: none;
+    //         height: 50px;
+    //         margin-left: 24px ;
+    //         text-align: center;
+            
+    // }
+    .but{
+        font-size: 12px;
+        margin-left: 470px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: white;
+        background-color: #85b81a;
+        border-radius: 4px;
+        border: none;
+        height: 50px;
+        // text-align: center;
+        padding: 10px 25px;
+    }
+    // .back-img{
+    //     background-position: center center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+        
+    // }
+    
 }
 
